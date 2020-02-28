@@ -16495,7 +16495,7 @@ Transform:
   m_GameObject: {fileID: 3920642637575422703}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.047, y: 0, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.08, y: 0.08, z: 0.08}
   m_Children:
   - {fileID: 7018512423693736433}
   m_Father: {fileID: 0}
@@ -33321,7 +33321,58 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 4423731895825283295, guid: 935623e4ffe7dbd43a664d533a0df320,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423731895825283295, guid: 935623e4ffe7dbd43a664d533a0df320,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423731895825283295, guid: 935623e4ffe7dbd43a664d533a0df320,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423731895825283295, guid: 935623e4ffe7dbd43a664d533a0df320,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423731895825283295, guid: 935623e4ffe7dbd43a664d533a0df320,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8908025006988399490, guid: 935623e4ffe7dbd43a664d533a0df320,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9057632443568138835, guid: 935623e4ffe7dbd43a664d533a0df320,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9057632443568138835, guid: 935623e4ffe7dbd43a664d533a0df320,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9057632443568138835, guid: 935623e4ffe7dbd43a664d533a0df320,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9057632443568138835, guid: 935623e4ffe7dbd43a664d533a0df320,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7168377874998107659, guid: 935623e4ffe7dbd43a664d533a0df320, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 935623e4ffe7dbd43a664d533a0df320, type: 3}
 --- !u!4 &5398879933456680572 stripped
 Transform:
