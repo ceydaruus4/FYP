@@ -116,7 +116,7 @@ Transform:
   - {fileID: 2627307702533767436}
   - {fileID: 1914067927647905304}
   - {fileID: 4146661164113352721}
-  - {fileID: 1512425302619177272}
+  - {fileID: 8111550681414682303}
   m_Father: {fileID: 4195118628565523679}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -690,7 +690,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enablePanelAnimationTriggerName: Open
-  animator: {fileID: 8437492809859489606}
+  animator: {fileID: 1258982128137754817}
 --- !u!1 &8757591875204680677
 GameObject:
   m_ObjectHideFlags: 0
@@ -849,13 +849,28 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!1001 &3998440437049006436
+--- !u!1001 &5985955663723634403
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 5943440348377917442}
     m_Modifications:
+    - target: {fileID: 2105604212267123407, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2105604212267123407, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2105604212267123407, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -869,22 +884,22 @@ PrefabInstance:
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
@@ -914,12 +929,12 @@ PrefabInstance:
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1.74
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 3.39
+      value: 3.5200043
       objectReference: {fileID: 0}
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
@@ -929,7 +944,7 @@ PrefabInstance:
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 400
+      value: 450
       objectReference: {fileID: 0}
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
@@ -961,6 +976,69 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3619240075139486059, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_Text
+      value: 'HDD
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_text
+      value: A hard disk drive (HDD) is a non-volatile computer storage device containing
+        magnetic disks or platters rotating at high speeds.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 128
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_textAlignment
+      value: 258
+      objectReference: {fileID: 0}
+    - target: {fileID: 4424041509678364407, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: url
+      value: https://www.overclockers.co.uk/pc-components/storage/hdd-hard-disk
+      objectReference: {fileID: 0}
+    - target: {fileID: 6217304889055540857, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: url
+      value: https://www.scan.co.uk/shop/computer-hardware/hard-drives-internal/all
+      objectReference: {fileID: 0}
     - target: {fileID: 9026683557441802235, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_Name
@@ -973,15 +1051,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 562d19893c41a494695c8f8b3cd1815c, type: 3}
---- !u!224 &1512425302619177272 stripped
+--- !u!224 &8111550681414682303 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
     type: 3}
-  m_PrefabInstance: {fileID: 3998440437049006436}
+  m_PrefabInstance: {fileID: 5985955663723634403}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &8437492809859489606 stripped
+--- !u!95 &1258982128137754817 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 4785830403154593314, guid: 562d19893c41a494695c8f8b3cd1815c,
     type: 3}
-  m_PrefabInstance: {fileID: 3998440437049006436}
+  m_PrefabInstance: {fileID: 5985955663723634403}
   m_PrefabAsset: {fileID: 0}

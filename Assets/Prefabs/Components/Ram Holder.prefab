@@ -376,7 +376,7 @@ Transform:
   - {fileID: 8801710418677848218}
   - {fileID: 8690424716514968582}
   - {fileID: 2686562604431715189}
-  - {fileID: 8767570548593159770}
+  - {fileID: 4372506653984194560}
   m_Father: {fileID: 5603472527934619184}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1977,7 +1977,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enablePanelAnimationTriggerName: Open
-  animator: {fileID: 1749194610559283236}
+  animator: {fileID: 6720648756271324798}
 --- !u!1 &6908167488773428448
 GameObject:
   m_ObjectHideFlags: 0
@@ -2689,7 +2689,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!1001 &6497793067060475398
+--- !u!1001 &2246773991651039324
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -2709,7 +2709,7 @@ PrefabInstance:
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.37
+      value: 0.22
       objectReference: {fileID: 0}
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
@@ -2754,12 +2754,12 @@ PrefabInstance:
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 2.2
+      value: 2.24
       objectReference: {fileID: 0}
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 3.12
+      value: 3.45
       objectReference: {fileID: 0}
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
@@ -2769,7 +2769,7 @@ PrefabInstance:
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 400
+      value: 450
       objectReference: {fileID: 0}
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
@@ -2801,6 +2801,67 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3619240075139486059, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_Text
+      value: RAM
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_text
+      value: Random Access Memory, or RAM (pronounced as ramm), is the physical hardware
+        inside a computer that temporarily stores data.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 123
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_textAlignment
+      value: 258
+      objectReference: {fileID: 0}
+    - target: {fileID: 4424041509678364407, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: url
+      value: https://www.scan.co.uk/shop/computer-hardware/memory-ram/all
+      objectReference: {fileID: 0}
+    - target: {fileID: 6217304889055540857, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: url
+      value: https://www.mymemory.co.uk/memory/computer-memory/pc-ram.html
+      objectReference: {fileID: 0}
     - target: {fileID: 9026683557441802235, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_Name
@@ -2813,15 +2874,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 562d19893c41a494695c8f8b3cd1815c, type: 3}
---- !u!224 &8767570548593159770 stripped
+--- !u!224 &4372506653984194560 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
     type: 3}
-  m_PrefabInstance: {fileID: 6497793067060475398}
+  m_PrefabInstance: {fileID: 2246773991651039324}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &1749194610559283236 stripped
+--- !u!95 &6720648756271324798 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 4785830403154593314, guid: 562d19893c41a494695c8f8b3cd1815c,
     type: 3}
-  m_PrefabInstance: {fileID: 6497793067060475398}
+  m_PrefabInstance: {fileID: 2246773991651039324}
   m_PrefabAsset: {fileID: 0}

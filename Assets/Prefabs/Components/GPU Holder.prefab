@@ -2949,7 +2949,7 @@ Transform:
   - {fileID: 7667077717808123384}
   - {fileID: 5362772574263944715}
   - {fileID: 7239490695049408106}
-  - {fileID: 1818025169403638057}
+  - {fileID: 5817473638812614320}
   m_Father: {fileID: 1226028337923675235}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3128,7 +3128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enablePanelAnimationTriggerName: Open
-  animator: {fileID: 8705499377134628695}
+  animator: {fileID: 3553648788833067214}
 --- !u!1 &4250666430700694612
 GameObject:
   m_ObjectHideFlags: 0
@@ -7471,7 +7471,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!1001 &4231847539125856629
+--- !u!1001 &8303432493469476588
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -7491,7 +7491,7 @@ PrefabInstance:
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.95
+      value: -3.22
       objectReference: {fileID: 0}
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
@@ -7536,12 +7536,12 @@ PrefabInstance:
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.4
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 3.5200043
+      value: 4.55
       objectReference: {fileID: 0}
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
@@ -7551,7 +7551,7 @@ PrefabInstance:
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 400
+      value: 450
       objectReference: {fileID: 0}
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
@@ -7583,6 +7583,67 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3619240075139486059, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_Text
+      value: GPU
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_text
+      value: A graphics processing unit (GPU) is a computer chip that performs rapid
+        mathematical calculations, primarily for the purpose of rendering images.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_textAlignment
+      value: 258
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 145
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4424041509678364407, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: url
+      value: https://www.scan.co.uk/shop/gaming/gpu/all/clearance
+      objectReference: {fileID: 0}
+    - target: {fileID: 6217304889055540857, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: url
+      value: https://www.nvidia.com/en-gb/shop/geforce/?page=1&limit=9&locale=en-gb
+      objectReference: {fileID: 0}
     - target: {fileID: 9026683557441802235, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_Name
@@ -7595,15 +7656,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 562d19893c41a494695c8f8b3cd1815c, type: 3}
---- !u!224 &1818025169403638057 stripped
+--- !u!224 &5817473638812614320 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
     type: 3}
-  m_PrefabInstance: {fileID: 4231847539125856629}
+  m_PrefabInstance: {fileID: 8303432493469476588}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &8705499377134628695 stripped
+--- !u!95 &3553648788833067214 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 4785830403154593314, guid: 562d19893c41a494695c8f8b3cd1815c,
     type: 3}
-  m_PrefabInstance: {fileID: 4231847539125856629}
+  m_PrefabInstance: {fileID: 8303432493469476588}
   m_PrefabAsset: {fileID: 0}

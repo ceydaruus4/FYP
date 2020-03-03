@@ -32955,6 +32955,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ram Holder
       objectReference: {fileID: 0}
+    - target: {fileID: 7387883870608514583, guid: 9e24ee2f676a70749be6e199e3809bb8,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7387883870608514583, guid: 9e24ee2f676a70749be6e199e3809bb8,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7387883870608514583, guid: 9e24ee2f676a70749be6e199e3809bb8,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7387883870608514583, guid: 9e24ee2f676a70749be6e199e3809bb8,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7387883870608514583, guid: 9e24ee2f676a70749be6e199e3809bb8,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e24ee2f676a70749be6e199e3809bb8, type: 3}
 --- !u!4 &6459842779018018775 stripped

@@ -198,7 +198,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 462789891}
   m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 0, y: 1, z: -0.83}
+  m_LocalPosition: {x: 0, y: 1.58, z: -0.83}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -467,6 +467,31 @@ PrefabInstance:
     - target: {fileID: 14551401685971196, guid: 07dada5435edc2043a1ae247f749a173,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3195899862804084311, guid: 07dada5435edc2043a1ae247f749a173,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3195899862804084311, guid: 07dada5435edc2043a1ae247f749a173,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3195899862804084311, guid: 07dada5435edc2043a1ae247f749a173,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3195899862804084311, guid: 07dada5435edc2043a1ae247f749a173,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3195899862804084311, guid: 07dada5435edc2043a1ae247f749a173,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3920642637575422703, guid: 07dada5435edc2043a1ae247f749a173,

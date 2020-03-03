@@ -847,7 +847,7 @@ Transform:
   - {fileID: 6057582077050355857}
   - {fileID: 8327720149158993378}
   - {fileID: 6584800322950051056}
-  - {fileID: 4626881958092125320}
+  - {fileID: 109520207494874319}
   m_Father: {fileID: 793602063280911083}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2724,7 +2724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enablePanelAnimationTriggerName: Open
-  animator: {fileID: 2440728267351993078}
+  animator: {fileID: 6949003378895493809}
 --- !u!1 &7697883562114079289
 GameObject:
   m_ObjectHideFlags: 0
@@ -3120,7 +3120,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!1001 &7184818141158862036
+--- !u!1001 &2451504816510557331
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -3140,7 +3140,7 @@ PrefabInstance:
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.07
+      value: -1.16
       objectReference: {fileID: 0}
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
@@ -3185,12 +3185,12 @@ PrefabInstance:
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.61
+      value: 0.78
       objectReference: {fileID: 0}
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.62
+      value: 2.45
       objectReference: {fileID: 0}
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
@@ -3200,7 +3200,7 @@ PrefabInstance:
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 400
+      value: 450
       objectReference: {fileID: 0}
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
@@ -3232,6 +3232,42 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3619240075139486059, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_Text
+      value: HeatSink
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_text
+      value: A heat sink is a device that incorporates either a fan or some other
+        means to keep a hot component, such as a processor, cooled down
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_textAlignment
+      value: 258
+      objectReference: {fileID: 0}
+    - target: {fileID: 4424041509678364407, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: url
+      value: https://uk.rs-online.com/web/c/hvac-fans-thermal-management/electronics-heating-cooling/heatsinks/
+      objectReference: {fileID: 0}
+    - target: {fileID: 6217304889055540857, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: url
+      value: https://www.amazon.co.uk/Fans-Cooling-CPU-Heatsink/s?rh=n%3A430499031%2Cp_n_feature_keywords_browse-bin%3A1616885031
+      objectReference: {fileID: 0}
     - target: {fileID: 9026683557441802235, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_Name
@@ -3244,15 +3280,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 562d19893c41a494695c8f8b3cd1815c, type: 3}
---- !u!224 &4626881958092125320 stripped
+--- !u!224 &109520207494874319 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
     type: 3}
-  m_PrefabInstance: {fileID: 7184818141158862036}
+  m_PrefabInstance: {fileID: 2451504816510557331}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &2440728267351993078 stripped
+--- !u!95 &6949003378895493809 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 4785830403154593314, guid: 562d19893c41a494695c8f8b3cd1815c,
     type: 3}
-  m_PrefabInstance: {fileID: 7184818141158862036}
+  m_PrefabInstance: {fileID: 2451504816510557331}
   m_PrefabAsset: {fileID: 0}

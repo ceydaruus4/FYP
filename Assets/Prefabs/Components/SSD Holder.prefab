@@ -194,7 +194,7 @@ Transform:
   - {fileID: 6226927249506137870}
   - {fileID: 798798494079244826}
   - {fileID: 557262664616666783}
-  - {fileID: 8219602125638811058}
+  - {fileID: 3109887006725790881}
   m_Father: {fileID: 8634063157775414522}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -689,7 +689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enablePanelAnimationTriggerName: Open
-  animator: {fileID: 1439794363680203724}
+  animator: {fileID: 5386938526283973343}
 --- !u!1 &8777781357998069928
 GameObject:
   m_ObjectHideFlags: 0
@@ -769,7 +769,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!1001 &5877622188333327854
+--- !u!1001 &624011783871300861
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -789,7 +789,7 @@ PrefabInstance:
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.82
+      value: -0.8
       objectReference: {fileID: 0}
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
@@ -834,12 +834,12 @@ PrefabInstance:
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1.36
+      value: 1.35
       objectReference: {fileID: 0}
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 2.81
+      value: 3.51
       objectReference: {fileID: 0}
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
@@ -849,7 +849,7 @@ PrefabInstance:
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 400
+      value: 450
       objectReference: {fileID: 0}
     - target: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
@@ -881,6 +881,68 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3619240075139486059, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_Text
+      value: SSD
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_text
+      value: Solid-state drives, or SSDs, are a modern computing marvel. They make
+        systems boot up quicker, games load faster, and make the experience of browsing
+        the web.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 158
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4371804892140398609, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: m_textAlignment
+      value: 258
+      objectReference: {fileID: 0}
+    - target: {fileID: 4424041509678364407, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: url
+      value: https://www.mymemory.co.uk/memory/data-storage/ssd-drives.html
+      objectReference: {fileID: 0}
+    - target: {fileID: 6217304889055540857, guid: 562d19893c41a494695c8f8b3cd1815c,
+        type: 3}
+      propertyPath: url
+      value: https://www.ebuyer.com/store/Storage/cat/Hard-Drive---SSD
+      objectReference: {fileID: 0}
     - target: {fileID: 9026683557441802235, guid: 562d19893c41a494695c8f8b3cd1815c,
         type: 3}
       propertyPath: m_Name
@@ -893,15 +955,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 562d19893c41a494695c8f8b3cd1815c, type: 3}
---- !u!224 &8219602125638811058 stripped
+--- !u!224 &3109887006725790881 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2558157461130369116, guid: 562d19893c41a494695c8f8b3cd1815c,
     type: 3}
-  m_PrefabInstance: {fileID: 5877622188333327854}
+  m_PrefabInstance: {fileID: 624011783871300861}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &1439794363680203724 stripped
+--- !u!95 &5386938526283973343 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 4785830403154593314, guid: 562d19893c41a494695c8f8b3cd1815c,
     type: 3}
-  m_PrefabInstance: {fileID: 5877622188333327854}
+  m_PrefabInstance: {fileID: 624011783871300861}
   m_PrefabAsset: {fileID: 0}
